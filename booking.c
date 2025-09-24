@@ -124,6 +124,8 @@ void menu() {
         printf("0. ออก\n");
         printf("เลือก: ");
         scanf("%d", &ch);
+        while(getchar() != '\n');
+        
 
         switch (ch) {
             case 1: displayAll(); break;
